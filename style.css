@@ -36,6 +36,30 @@ body {
     rgb(236, 221, 135),
     transparent 50%
   );
+
+  --bg-color-cool4:
+    linear-gradient(415deg, black, rgb(108, 117, 62), black, transparent 30%),
+    linear-gradient(105deg, black, rgb(109, 78, 78), black, transparent 10%),
+    linear-gradient(25deg, rgb(73, 12, 12), white, black, transparent 19%),
+    linear-gradient(
+    301deg,
+    rgb(21, 1, 1),
+    rgb(147, 120, 120),
+    black,
+    transparent 80%
+  ), linear-gradient(
+    270deg,
+    black,
+    rgb(216, 12, 12),
+    black,
+    transparent 100%
+  ),linear-gradient(
+    295deg,
+    black,
+    rgb(42, 186, 23),
+    rgb(236, 228, 228),
+    transparent 50%
+  );
 }
 
 .display {
@@ -77,6 +101,11 @@ a {
   background: var(--bg-color-cool2);
 }
 
+.gradient-cool4 {
+  flex-grow: 1;
+  background: var(--bg-color-cool4);
+}
+
 .gradient {
   flex-grow: 1;
   background-color: ghostwhite;
@@ -94,6 +123,10 @@ a {
   background-color: rgb(213, 59, 59);
 }
 
+#cool4 {
+  background: var(--bg-color-cool4);
+}
+
 #_home {
   background-color: rgb(43, 41, 41);
 }
@@ -102,7 +135,7 @@ a {
   text-decoration: none;
 }
 
-#home, #you {
+#home, #youtube {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -121,20 +154,19 @@ h1 {
   padding: 0.1em;
 }
 
-#you {
+#youtube {
   width: 100%;
   background-color: white;
-  color: white;
+}
+
+#you {
+  padding: 0.4em 0.3em;
+  background-color: red;
+  border: 2px solid red;
+  border-radius: 0.2em;
 }
 
 #tube {
   background-color: white;
   color: red;
-}
-
-#something {
-  padding: 0.4em 0.3em;
-  background-color: red;
-  border: 2px solid red;
-  border-radius: 0.2em;
 }
