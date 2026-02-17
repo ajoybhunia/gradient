@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+}
+
+:root {
+  --bg-color-cool1:
+    linear-gradient(45deg, black, white, black, transparent 50%),
+    linear-gradient(135deg, black, white, black, transparent 50%),
+    linear-gradient(225deg, black, white, black, transparent 50%),
+    linear-gradient(315deg, black, white, black, transparent 50%);
+
+  --bg-color-cool2:
+    linear-gradient(45deg, rgb(231, 31, 31), white, black, transparent 50%),
+    linear-gradient(135deg, rgb(133, 34, 34), white, black, transparent 50%),
+    linear-gradient(225deg, rgb(137, 42, 42), white, black, transparent 50%),
+    linear-gradient(315deg, rgb(217, 132, 132), white, black, transparent 50%);
+}
+
+.display {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+a {
+  color: white;
+}
+
+.side-bar {
+  width: 20%;
+  flex-direction: column;
+}
+
+.each-gradient {
+  display: flex;
+  width: 100%;
+  height: 2em;
+  color: white;
+  border: 1px solid rgb(4, 0, 0);
+  font-size: 2em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  background: var(--bg-color-cool1);
+}
+
+.gradient-cool1 {
+  flex-grow: 1;
+
+  background: var(--bg-color-cool1);
+}
+
+.gradient-cool2 {
+  flex-grow: 1;
+
+  background: var(--bg-color-cool2);
+}
+
+.gradient {
+  flex-grow: 1;
+  background: var(--bg-color-cool1);
+}
+
+#cool1 {
+  background: var(--bg-color-cool1);
+}
+
+#cool2 {
+  background: var(--bg-color-cool2);
+}
+
+a {
+  text-decoration: none;
+}
