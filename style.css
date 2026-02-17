@@ -41,24 +41,22 @@ a {
   justify-content: center;
   align-items: center;
   border-radius: 2px;
-  background: var(--bg-color-cool1);
+  background-color: rgb(45, 45, 47);
 }
 
 .gradient-cool1 {
   flex-grow: 1;
-
   background: var(--bg-color-cool1);
 }
 
 .gradient-cool2 {
   flex-grow: 1;
-
   background: var(--bg-color-cool2);
 }
 
 .gradient {
   flex-grow: 1;
-  background: var(--bg-color-cool1);
+  background-color: ghostwhite;
 }
 
 #cool1 {
