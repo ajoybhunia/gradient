@@ -84,6 +84,14 @@ a {
   background: var(--bg-color-cool2);
 }
 
+#cool3 {
+  background-color: rgb(213, 59, 59);
+}
+
+#_home {
+  background-color: rgb(43, 41, 41);
+}
+
 a {
   text-decoration: none;
 }
